@@ -13,11 +13,11 @@ body {
     background-color: #784b7a; 
     list-style-type: none;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    .li {
-    float: left;
-    font-size: 20px;
-    padding: 20px;
+    margin: 5px;
+    padding: 5px;
+    .box2 {
+        display: inline-block;
+        width: 200px;
+        margin: 5px;
     }
 }
