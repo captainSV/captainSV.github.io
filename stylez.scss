@@ -9,3 +9,15 @@ body {
   color: $primary-color;
   background-color: #36393f;
 }
+.nav {
+    background-color: 784b7a; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    .li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+}
