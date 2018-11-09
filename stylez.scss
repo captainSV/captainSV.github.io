@@ -34,6 +34,37 @@ img {
         hover{
           background:#fff;
           color:#1AAB8A;
+          a {
+            color:#1AAB8A;
+          }
+          after{
+            width:100%;
+            transition:800ms ease all;
+          }
+          before{
+            width:100%;
+            transition:800ms ease all;
+          }
+        }
+        after{
+          content:'';
+          position:absolute;
+          top:0;
+          right:0;
+          height:2px;
+          width:0;
+          background: #1AAB8A;
+          transition:400ms ease all;
+        }
+        before{
+          content:'';
+          position:absolute;
+          top:0;
+          right:0;
+          height:2px;
+          width:0;
+          background: #1AAB8A;
+          transition:400ms ease all;
         }
     }
     a {
