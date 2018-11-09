@@ -22,10 +22,19 @@ img {
     text-align: center;
     margin: 5px;
     padding: 5px;
+    border:none;
+    position:relative;
     .box2 {
         display: inline-block;
         width: 200px;
         margin: 5px;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+        hover{
+          background:#fff;
+          color:#1AAB8A;
+        }
     }
     a {
         color: #8edb43;
