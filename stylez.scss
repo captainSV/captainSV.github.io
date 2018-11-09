@@ -3,6 +3,7 @@
 
 $font-stack:    Arial, Helvetica, sans-serif;
 $primary-color: #2ecc71;
+$navcolor: #784b7a;
 
 body {
   font: 100% $font-stack;
@@ -17,7 +18,7 @@ img {
   height: 500px;
 }
 .nav {
-    background-color: #784b7a; 
+    background-color: $navcolor; 
     list-style-type: none;
     text-align: center;
     margin: 5px;
@@ -32,7 +33,7 @@ img {
         transition:800ms ease all;
         outline:none;
         &:hover{
-          background:#fff;
+          background:$navcolor;
           color:#1AAB8A;
           a {
             color:#1AAB8A;
@@ -53,7 +54,7 @@ img {
           right:0;
           height:2px;
           width:0;
-          background: #1AAB8A;
+          background: $navcolor;
           transition:400ms ease all;
         }
         &:before{
@@ -63,7 +64,7 @@ img {
           right:0;
           height:2px;
           width:0;
-          background: #1AAB8A;
+          background: $navcolor;
           transition:400ms ease all;
         }
     }
