@@ -4,6 +4,7 @@
 $font-stack:    Arial, Helvetica, sans-serif;
 $primary-color: #2ecc71;
 $navcolor: #784b7a;
+$fancybox: #1AAB8A;
 
 body {
   font: 100% $font-stack;
@@ -34,9 +35,9 @@ img {
         outline:none;
         &:hover{
           background:$navcolor;
-          color:#1AAB8A;
+          color: $fancybox;
           a {
-            color:#1AAB8A;
+            color: $fancybox;
           }
           &:after{
             width:100%;
@@ -54,7 +55,7 @@ img {
           right:0;
           height:2px;
           width:0;
-          background: $navcolor;
+          background: $fancybox;
           transition:400ms ease all;
         }
         &:before{
@@ -64,7 +65,7 @@ img {
           right:0;
           height:2px;
           width:0;
-          background: $navcolor;
+          background: $fancybox;
           transition:400ms ease all;
         }
     }
