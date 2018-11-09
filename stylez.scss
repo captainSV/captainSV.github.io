@@ -31,22 +31,22 @@ img {
         cursor:pointer;
         transition:800ms ease all;
         outline:none;
-        hover{
+        &:hover{
           background:#fff;
           color:#1AAB8A;
           a {
             color:#1AAB8A;
           }
-          after{
+          &:after{
             width:100%;
             transition:800ms ease all;
           }
-          before{
+          &:before{
             width:100%;
             transition:800ms ease all;
           }
         }
-        after{
+        &:after{
           content:'';
           position:absolute;
           top:0;
@@ -56,7 +56,7 @@ img {
           background: #1AAB8A;
           transition:400ms ease all;
         }
-        before{
+        &:before{
           content:'';
           position:absolute;
           top:0;
