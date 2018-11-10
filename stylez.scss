@@ -26,51 +26,16 @@ img {
     padding: 5px;
     border:none;
     position:relative;
-    .box2 {
-        display: inline-block;
-        width: 200px;
-        margin: 5px;
-        cursor:pointer;
-        transition:800ms ease all;
-        outline:none;
-        &:hover{
-          background:$navcolor;
-          color: $fancybox;
-          a {
-            color: $fancybox;
-          }
-          &:after{
-            width:100%;
-            transition:800ms ease all;
-          }
-          &:before{
-            width:100%;
-            transition:800ms ease all;
-          }
-        }
-        &:after{
-          content:'';
-          position:absolute;
-          top:0;
-          right:0;
-          height:2px;
-          width:0;
-          background: $fancybox;
-          transition:400ms ease all;
-        }
-        &:before{
-          content:'';
-          position:absolute;
-          top:0;
-          right:0;
-          height:2px;
-          width:0;
-          background: $fancybox;
-          transition:400ms ease all;
-        }
-    }
     a {
-        color: #8edb43;
+      color: #8edb43;
+    }
+    .box2 {
+      &:hover{
+        background:$navcolor;
+        a {
+        color: $fancybox;
+        }
+      }
     }
 }
 .cntr {
@@ -80,5 +45,48 @@ img {
   img{
     width:1280px;
     height: 750px;
+  }
+}
+.box2 {
+  display: inline-block;
+  width: 200px;
+  margin: 5px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  &:hover{
+    background: #36393f;
+    color: $fancybox;
+    a {
+      color: $fancybox;
+    }
+    &:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+    &:before{
+      width:100%;
+      transition:800ms ease all;
+    }
+  }
+  &:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: $fancybox;
+    transition:400ms ease all;
+  }
+  &:before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: $fancybox;
+    transition:400ms ease all;
   }
 }
