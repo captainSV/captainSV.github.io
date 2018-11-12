@@ -5,6 +5,7 @@ $font-stack:    Arial, Helvetica, sans-serif;
 $primary-color: #2ecc71;
 $navcolor: #784b7a;
 $fancybox: #1AAB8A;
+$oldlinkcolor: #5e7f3e;
 
 body {
   font: 100% $font-stack;
@@ -12,7 +13,7 @@ body {
   background-color: #36393f;
 }
 a {
-    color: #5e7f3e;
+    color: #8edb43;
 }
 img {
   width: 500px;
@@ -26,9 +27,6 @@ img {
     padding: 5px;
     border:none;
     position:relative;
-    a {
-      color: #8edb43;
-    }
     .box2 {
       &:hover{
         background:$navcolor;
@@ -96,4 +94,13 @@ img {
 }
 .changelog {
   list-style-type:none;
+}
+table {
+    border-collapse: collapse;
+    th {
+      border: 1px solid black;
+    }
+    td {
+      border: 1px solid black;
+    }
 }
